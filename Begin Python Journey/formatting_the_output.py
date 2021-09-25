@@ -7,12 +7,59 @@
 #    7) change any of the print words into something else, differing only in case (e.g., Print) - what happens now?
 #    8) replace some of the quotes with apostrophes; watch what happens carefully.
 
+# Sample Solution
 
-print("       *\n","     *  *\n","    *    *\n","   *      *\n","  *        *\n"," ****    ****\n","    *    *\n","    *    *\n","    *    *\n","    *    *\n","    ******")
-#print("   * *")
-#print("  *   *")
-#print(" *     *")
-#print("***   ***")
-#print("  *   *")
-#print("  *   *")
-#print("  *****")
+###################
+print("original version:")
+###################
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+###################
+print("with fewer 'print()' invocations:")
+###################
+print("    *\n   * *\n  *   *\n *     *\n***   ***")
+print("  *   *\n  *   *\n  *****")
+###################
+print("higher:")
+###################
+print("        *")
+print("       * *")
+print("      *   *")
+print("     *     *")
+print("    *       *")
+print("   *         *")
+print("  *           *")
+print(" *             *")
+print("******     ******")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *******")
+###################
+print("doubled:")
+###################
+print("        *        "*2)
+print("       * *       "*2)
+print("      *   *      "*2)
+print("     *     *     "*2)
+print("    *       *    "*2)
+print("   *         *   "*2)
+print("  *           *  "*2)
+print(" *             * "*2)
+print("******     ******"*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *******     "*2)
