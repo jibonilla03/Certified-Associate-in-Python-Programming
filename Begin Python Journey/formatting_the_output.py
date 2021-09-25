@@ -8,11 +8,11 @@
 #    8) replace some of the quotes with apostrophes; watch what happens carefully.
 
 
-print("    *")
-print("   * *")
-print("  *   *")
-print(" *     *")
-print("***   ***")
-print("  *   *")
-print("  *   *")
-print("  *****")
+print("     *\n","   * *\n","  *   *\n"," *     *\n","***   ***\n","  *   *\n","  *   *\n","  *****")
+#print("   * *")
+#print("  *   *")
+#print(" *     *")
+#print("***   ***")
+#print("  *   *")
+#print("  *   *")
+#print("  *****")
